@@ -15,7 +15,7 @@ function rot13(encodedStr){
   // Only change code below this line
 	var words = encodedStr.split(" ");
 	for(var i=0;i<words.length;i++){
-		var word = word[i];
+		var word = words[i];
 		var decoded_word="";
 		for(var j=0; j<word.length;j++){
 			var char = word.charAt(j);
